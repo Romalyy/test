@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 50px;
+  color: rgb(78, 70, 70);
+}
+
+.email {
+  font-size: 14px;
+  color: rgb(78, 70, 70);
+  margin-right: 15px;
+  transition: all 700ms ease-in-out;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: transparent;
+  border-color: transparent;
+  height: 25px;
+  padding: 20px;
+  transition: all 700ms ease-in-out;
+}
+
+.btn:hover,
+:focus {
+  color: red;
+  background-color: whitesmoke;
+  transition: all 700ms ease-in-out;
+}
+
+
+  .btn:hover .email,
+  .email:focus {
+    color: red;
+    background-color: whitesmoke;
+  
+    transition: all 700ms ease-in-out;
+  }

@@ -1,0 +1,28 @@
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 86px;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(78, 70, 70);
+    padding: 10px;
+    font-weight: 700;
+    outline: transparent;
+}
+
+.activeLink {
+    font-size: 20px;
+    text-decoration: none;
+    outline: transparent;
+    font-weight: 700;
+    padding: 10px;
+    color: wheat;
+}

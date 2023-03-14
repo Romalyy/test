@@ -1,0 +1,11 @@
+.title {
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+
+.redirect {
+    margin-bottom: 50px;
+    text-align: center;
+}
