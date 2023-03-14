@@ -23,7 +23,7 @@ const Form = ({title, handleClick}) => {
 
     function handleCredentialResponse(response) {
         let userObject = jwt_decode(response.credential)
-        let authObj = dispatch(setUser(userObject));
+        dispatch(setUser(userObject));
         navigate('/test');
         document.getElementById("signInDiv").hidden = true;
     }
