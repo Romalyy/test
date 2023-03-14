@@ -1,7 +1,7 @@
 import SignUp from '../../shared/components/SignUp';
 import { Link } from 'react-router-dom';
 
-import s from "./register-page.module.css";
+import s from "./register-page.module.scss";
 
 const RegisterPage = () => {
 

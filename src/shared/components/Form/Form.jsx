@@ -9,7 +9,7 @@ import { setUser } from '../../../store/slices/userSlice';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 
-import s from "./form.module.css";
+import s from "./form.module.scss";
 
 const Form = ({title, handleClick}) => {
     const [email, setEmail] = useState('');

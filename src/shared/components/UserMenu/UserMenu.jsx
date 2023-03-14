@@ -6,7 +6,7 @@ import { useAuth } from '../../../hooks/use-auth';
 
 import LogoutIcon from '@mui/icons-material/Logout';
 
-import s from "./user-menu.module.css";
+import s from "./user-menu.module.scss";
 
 const UserMenu = () => {
 

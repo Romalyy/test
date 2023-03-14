@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import Login from '../../shared/components/Login';
 
-import s from "./login-page.module.css";
+import s from "./login-page.module.scss";
 
 const LoginPage = () => {
 

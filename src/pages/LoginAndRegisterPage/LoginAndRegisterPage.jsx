@@ -4,7 +4,7 @@ import { useAuth } from '../../hooks/use-auth';
 
 import UserMenu from '../../shared/components/UserMenu';
 
-import s from "./login-register.module.css";
+import s from "./login-register.module.scss";
 
 const LoginAndRegisterPage = () => {
 
