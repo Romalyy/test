@@ -38,7 +38,7 @@ const Form = ({title, handleClick}) => {
             document.getElementById("signInDiv"),
             {theme: "outline", size: "large"}
         );
-    }, []);
+    });
 
     return (
         <div className="container">
