@@ -31,7 +31,7 @@ const Form = ({title, handleClick}) => {
     useEffect(() => {
         // Global google
         google.accounts.id.initialize({
-            client_id: "817426699905-v79bfsq4m29em3vpplfej2cb3f1n6o8r.apps.googleusercontent.com",
+            client_id: "44227015581-t6botbcpdqpld6tor80seou5m5o65bhf.apps.googleusercontent.com",
             callback: handleCredentialResponse
             });
         google.accounts.id.renderButton(
